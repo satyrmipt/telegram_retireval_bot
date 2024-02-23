@@ -1,24 +1,14 @@
 # telegram_retireval_bot
-Telegram bot with retrieval strategy and personality of Leonard from The Big Bang Theory
-To statr the bot 
+Англоязычный (!) Телеграм-бор https://t.me/TBB_chat_bot использует retrieval-подход для ответа на вопросы в стиле Леонарда из "Теории большого взрыва"
+Прежде чем отрпавлять сообщения боту, его нужно запустить.
   * python main.py
-    
-Please install next packages:
- * requests
- * bs4
- * pandas
- * re
- * numpy
- * csv
- * os
- * sys
- * sentence_transformers
- * rank_bm25
- * torch
- * pprint
- * faiss
- * sklearn
- * pprint
- * nest_asyncio
- * typing
- * telegram
+
+Будет запущен бот в конфигурации bi-encoder + cross-encoder
+Бот игнорирует все сообщения, отправленные до его запуска.
+Чтобы убедиться, что бот работает, отправьте ему после запуска "hello" без кавычек: бот ответит на это сообщение не запуская механизма retrieval.
+
+Для запуска необходимы пакеты, перечисленые в requirements.txt
+Некоторые из них я установил через conda forge.
+
+
+
