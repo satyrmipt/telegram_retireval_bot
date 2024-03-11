@@ -18,3 +18,8 @@ pprint
 nest_asyncio
 typing
 python-telegram-bot
+transformers==4.35.0
+tokenizers==0.13.3
+accelerate
+pprint
+tabulate
